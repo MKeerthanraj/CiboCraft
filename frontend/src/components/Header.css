@@ -1,0 +1,26 @@
+.Header{
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Logo{
+    text-align: center;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.LogoName{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.LogoTagline{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}

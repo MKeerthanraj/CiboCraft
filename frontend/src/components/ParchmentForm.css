@@ -1,0 +1,24 @@
+#parchment {
+  height: 120vh;
+  width: 60vw;
+  background-image: url("../assets/parchment_png.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wok {
+    height: 350px;
+    width: 350px;
+    mix-blend-mode: overlay;
+    margin: auto;
+}
+
+.test{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: auto;
+}

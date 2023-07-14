@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import ParchmentForm from "./components/ParchmentForm";
+import Header from "./components/Header";
+import bowl from "./assets/bowl_final.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Header />
+        <div className="body">
+          <ParchmentForm />
+          <div id="">
+            <img className="bowlAndWords" alt="Bowl" src={bowl} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
