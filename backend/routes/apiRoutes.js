@@ -1,9 +1,13 @@
 const express = require('express');
-const router = express.Router();
-
 const axios = require('axios');
 
-router.get('/', async (req, res) => {
+const router = express.Router();
+
+const findRecipeByIngredients = require('../controllers/findByIngredientsController');
+const findRecipeByNutrients = require('../controllers/findByNutrientsController');
+
+
+router.get('/sample', async (req, res) => {
   try {
     // Make a request to the external API
     // const response = await axios.get('https://external-api.com/data');
@@ -18,5 +22,9 @@ router.get('/', async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
+
+router.get('/search/recipe/byNutrients', findRecipeByNutrients);
+
+router.get('/search/recipe/byIngredients', findRecipeByIngredients);
 
 module.exports = router;
