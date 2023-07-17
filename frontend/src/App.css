@@ -6,23 +6,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-}
-
-.container{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+} 
 
 .body{
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .bowlAndWords{
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   scale: 90%;
 }

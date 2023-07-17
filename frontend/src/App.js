@@ -6,11 +6,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-fluid">
         <Header />
-        <div className="body">
-          <ParchmentForm />
-          <div id="">
+        <div className="row">
+          <div className="col-6">
+            <ParchmentForm />
+          </div>
+          <div className="col-6">
             <img className="bowlAndWords" alt="Bowl" src={bowl} />
           </div>
         </div>

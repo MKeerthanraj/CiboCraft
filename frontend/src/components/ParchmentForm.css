@@ -1,24 +1,26 @@
 #parchment {
-  height: 120vh;
-  width: 60vw;
+  height: 100%;
+  width: 100%;
   background-image: url("../assets/parchment_png.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:start;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .wok {
-    height: 350px;
-    width: 350px;
+    height: 50%;
+    width: 52%;
     mix-blend-mode: overlay;
     margin: auto;
 }
 
-.test{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    margin: auto;
+.checkbox{
+  width: fit-content;
+  background-image: url("../assets/checkbox.png");
+  background-repeat: no-repeat;
 }

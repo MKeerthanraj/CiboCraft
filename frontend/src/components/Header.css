@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .Logo{
@@ -17,10 +18,12 @@
 
 .LogoName{
     color: white;
+    font-size: 40px;
     font-family: 'Lobster', cursive;
 }
 
 .LogoTagline{
     color: white;
+    font-size: 15px;
     font-family: 'Nunito', sans-serif;
 }
