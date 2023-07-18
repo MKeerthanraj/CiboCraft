@@ -19,11 +19,11 @@ function ParchmentForm() {
 
   return (
     <div id="parchment">
-      <div className="grid">
+      <div className="grid ps-3">
         <div className="row">
           <img className="wok" alt="Wok" src={wok} />
         </div>
-        <div className="row pl-3 mt-3">
+        <div className="row mt-3">
           <p
             style={{
               fontFamily: "Lobster,cursive",
@@ -34,7 +34,7 @@ function ParchmentForm() {
             Search by:
           </p>
         </div>
-        <div className="searchMethodSelection row">
+        <div className="searchMethodSelection row mb-5">
           <div className="col-4 d-flex justify-content-center">
             <div className="checkbox">
               <img
@@ -82,6 +82,14 @@ function ParchmentForm() {
               Nutrients
             </p>
           </div>
+        </div>
+
+        <div className="row mt-5 ps-3">
+          <input id="searchInput" placeholder="What's on your mind?"></input>
+        </div>
+
+        <div className="row mt-5 mb-5 d-flex justify-content-end">
+          <button id="nextButton">Next</button>
         </div>
       </div>
     </div>

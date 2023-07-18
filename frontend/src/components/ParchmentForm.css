@@ -24,3 +24,40 @@
   background-image: url("../assets/checkbox.png");
   background-repeat: no-repeat;
 }
+
+#searchInput{
+  height: 40px;
+  width: 70%;
+  font-family: "Cabin Sketch", cursive;
+  background-color: transparent;
+  color: black;
+  font-size: 30px;
+  outline: 0;
+  border: none;
+  border-bottom: solid 3px;
+  border-bottom-color:#AB7A37;
+}
+
+#searchInput::placeholder { 
+  color:    #191919c9;
+}
+
+#nextButton{
+  height: 70px;
+  width: 30%;
+  background-image: url("../assets/nextButton.svg");
+  mix-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: white;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+#nextButton:hover{
+  scale: 101%;
+  transition: 0.1s;
+}
